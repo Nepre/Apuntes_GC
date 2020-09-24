@@ -1,6 +1,6 @@
 # OpenGL Shaders
 
-<img src="C:\Users\EDUAR\AppData\Roaming\Typora\typora-user-images\image-20200924112211105.png" alt="image-20200924112211105" style="zoom:50%;" />
+<img src="imgs/image-20200924112211105.png" alt="image-20200924112211105" style="zoom:50%;" />
 
 Pipeline antiguo vs pipeline moderno. Antes era el pipeline de funciones fijas. Estaba limitado. A partir de la versión de OpenGL 2.0 por cada vértice se ejecuta un código que varia el color, y luego con el Fragment Shader escribimos como se van a mostrar los grupos de píxeles.
 
@@ -175,7 +175,7 @@ reflect();
 
 En los shaders que vamos a usar en la práctica se implementa el modelo de Phong.
 
-<img src="C:\Users\EDUAR\AppData\Roaming\Typora\typora-user-images\image-20200924120230595.png" alt="image-20200924120230595" style="zoom:67%;" />
+<img src="imgs/image-20200924120230595.png" alt="image-20200924120230595" style="zoom:67%;" />
 
 **Iamb** es la iluminación ambiente, la que esta en general. Se representa por **Ia * Ka**
 
@@ -183,7 +183,7 @@ En los shaders que vamos a usar en la práctica se implementa el modelo de Phong
 
 **Iesp** es la iluminación que funciona con el brillo. Saber las partes más reflectantes, es decir las que tienen menos angulo entre la cámara y la luz reflejada.
 
-<img src="C:\Users\EDUAR\AppData\Roaming\Typora\typora-user-images\image-20200924120316485.png" alt="image-20200924120316485" style="zoom:50%;" />
+<img src="imgs/image-20200924120316485.png" alt="image-20200924120316485" style="zoom:50%;" />
 
 ## Variables del shader:
 

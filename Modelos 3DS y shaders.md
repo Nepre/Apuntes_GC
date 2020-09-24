@@ -1,6 +1,6 @@
 # Exportar los elementos
 
-![image-20200924122928477](C:\Users\EDUAR\AppData\Roaming\Typora\typora-user-images\image-20200924122928477.png)
+![image-20200924122928477](imgs/image-20200924122928477.png)
 
 Hay que cambiar hacia donde se exportan los elementos y que no salgan invertidos. 
 
